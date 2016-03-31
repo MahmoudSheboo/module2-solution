@@ -53,6 +53,7 @@ h3 {
   line-height: .75;
   text-align: right;
   margin: 10px;
+  display: none;
 }
 #back:hover {
   color: #00ff00;
@@ -154,9 +155,6 @@ p{
     border: 10px solid black;
     margin-top: 20px;
   }
-  #back , h3{
-   display: none;
-  }
   .col-lg-1 {
     width: 8.33%;
   }
@@ -200,9 +198,6 @@ p{
     float: left;
     border: 10px solid black;
     font-size: 115%;
-  }
-  #back , h3{
-   display: none;
   }
   p{
   font-size: 1.1em;
@@ -253,7 +248,10 @@ p{
   }
   p{
   font-size: 1em;
-}
+ }
+   #back , h3{
+   display: block;
+  }
   .col-sd-1 {
     width: 8.33%;
   }
